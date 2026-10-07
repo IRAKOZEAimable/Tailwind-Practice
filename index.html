@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brightly — Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <nav class="flex justify-between items-center px-10 py-5">
+    <div class="font-bold text-[20px]">Brightly</div>
+    <div>
+      <a class="ml-6 no-underline text-black-900" href="#features">Features</a>
+      <a class="ml-6 no-underline text-black-900" href="#services">Services</a>
+      <a class="ml-6 no-underline text-black-900" href="#pricing">Pricing</a>
+      <a class="ml-6 no-underline text-black-900" href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="flex justify-between items-center gap-10 py-20 px-10 bg-white">
+    <div class="max-w-[480px]">
+      <h1 class="text-4xl mb-4 flex justify font-bold">Build Faster, Ship Sooner</h1>
+      <p class="text-lg text-gray-700 mb-6">Everything you need to launch your next idea, in one place.</p>
+      <button class="bg-blue-600 text-white py-3 px-7 rounded-lg text-base">Get Started</button>
+    </div>
+    <img
+      class="w-full rounded-xl max-w-[480px]"
+      src="https://placehold.co/600x420/2563eb/ffffff?text=Product+Preview"
+      alt="Product dashboard preview"
+    />
+  </section>
+
+  <section class="grid grid-cols-3 gap-6 mb-24 py-15 px-10 max-w-[960px] mx-auto" id="features">
+    <div class="text-center">
+      <h3 class="mb-2 font-bold text-xl">Fast</h3>
+      <p class="text-gray-600 text-sm">Optimized from the ground up for speed.</p>
+    </div>
+    <div class="text-center">
+      <h3 class="mb-2 font-bold text-xl">Reliable</h3>
+      <p class="text-gray-600 text-sm">Built to stay up, even under load.</p>
+    </div>
+    <div class="text-center">
+      <h3 class="mb-2 font-bold text-xl">Simple</h3>
+      <p class="text-gray-600 text-sm">No unnecessary complexity, ever.</p>
+    </div>
+  </section>
+
+  <section class="py-15 py-10 bg-white text-center" id="services">
+    <h2 class="mb-8 font-bold text-2xl">What We Offer</h2>
+    <div class="grid grid-cols-4 gap-5 max-w-[1100px] mx-auto">
+      <div class="bg-white rounded-xl p-6">
+        <h4 class="font-bold mb-2 ">Hosting</h4>
+        <p class="text-gray-600 text-sm">Reliable uptime, global edge network.</p>
+      </div>
+      <div class="bg-white rounded-xl p-6">
+        <h4 class="font-bold mb-2 ">Analytics</h4>
+        <p class="text-gray-600 text-sm">Real-time dashboards for every project.</p>
+      </div>
+      <div class="bg-white rounded-xl p-6">
+        <h4 class="font-bold mb-2 ">Support</h4>
+        <p class="text-gray-600 text-sm">Real humans, 24/7, no bots.</p>
+      </div>
+      <div class="bg-white rounded-xl p-6">
+        <h4 class="font-bold mb-2 ">Security</h4>
+        <p class="text-gray-600 text-sm">Encrypted by default, audited yearly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-15 px-10 text-center mb-20" id="highlights">
+    <h2 class="mb-8 text-2xl font-bold">Why Teams Choose Brightly</h2>
+    <div class="grid grid-cols-4 auto-rows-[140px] gap-5 max-w-[1100px] mx-auto">
+      <div class="rounded-xl p-5 flex flex-col justify-center text-left col-span-2 row-span-2 bg-blue-600 text-white">
+        <h3 class="text-[40px] font-bold mb-2">10,000+</h3>
+        <p class="text-blue-100">Teams building on Brightly worldwide, shipping faster every day.</p>
+      </div>
+      <div class="bg-white rounded-xl flex flex-col justify-center p-5 text-left">
+        <h3 class="text-[28px] mb-2 font-bold">99.99%</h3>
+        <p class="text-gray-600 text-sm">Uptime SLA</p>
+      </div>
+      <div class="bg-white rounded-xl flex flex-col justify-center p-5 text-left">
+        <h3 class="text-[28px] mb-2 font-bold">24/7</h3>
+        <p class="text-gray-600 text-sm">Human support</p>
+      </div>
+      <div class="bg-white rounded-xl flex flex-col justify-center p-5 text-left">
+        <h3 class="text-[28px] mb-2 font-bold">150ms</h3>
+        <p class="text-gray-600 text-sm">Average response time</p>
+      </div>
+      <div class="bg-white rounded-xl flex flex-col justify-center p-5 text-left">
+        <h3 class="text-[28px] mb-2 font-bold">40+</h3>
+        <p class="text-gray-600 text-sm">Countries served</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="flex justify-between py-8 px-10 bg-black text-gray-400 text-sm" id="contact">
+    <div class="flex flex-col gap-2">
+      <strong>Brightly</strong>
+      <span>&copy; 2026 Brightly Inc.</span>
+    </div>
+    <div class="flex flex-col gap-2">
+      <a class="text-gray-400 no-underline" href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+    <div class="flex flex-col gap-2">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
